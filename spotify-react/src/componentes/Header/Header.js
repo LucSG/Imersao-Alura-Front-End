@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import './Header.css';
 import smallRight from '../../assets/icons/small-right.png';
 import smallLeft from '../../assets/icons/small-left.png';
 import search from '../../assets/icons/search.png';
 
-const Header = () => {
+const Header = ({ onSearch }) => {
     return (
         <nav className="header__navigation">
             <div className="navigation">
@@ -15,23 +15,23 @@ const Header = () => {
                     <img src={smallRight} alt="Seta direita" />
                 </button>
             </div>
+
             <div className="header__search">
-                <img src={search} alt="Buscar"/>
-                <input 
-                    id="search-input" 
-                    maxLength="800" 
-                    autoCorrect="off" 
-                    autoCapitalize="off" 
-                    spellCheck="false"
+                <img src={search} alt="Buscar" />
+                <input
+                    type="text"
+                    maxLength="800"
                     placeholder="O que você quer ouvir?"
+                    onChange={(e) => onSearch(e.target.value)}
                 />
             </div>
+
             <div className="header__login">
                 <button className="subscribe">Inscreva-se</button>
                 <button className="login">Entrar</button>
             </div>
         </nav>
-    )
+    );
 };
 
 export default Header;
