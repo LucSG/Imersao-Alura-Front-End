@@ -3,6 +3,15 @@
 # Imersão Front-End 2ª Edição
 Projeto da recriação da página inicial do Spotify por meio do HTML e do CSS, aplicando atalhos, recursos e as diferenças entre os códigos.
 
+Imagem projeto final:
+
+![Image](https://github.com/user-attachments/assets/69908789-e0cf-4161-ba7e-79c2eba8c9de)
+
+Barra de pesquisa funcional:
+
+![Image](https://github.com/user-attachments/assets/520036cb-76c9-4605-b590-1474c862d1fa)
+
+
 ## Dia 1 - Revisão: HTML, CSS e JS na Prática.
 ### Nesta aula:
 - Entrar no VSCode;
