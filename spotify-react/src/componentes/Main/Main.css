@@ -1,6 +1,6 @@
 
 .playlist-container {
-    height: 68vh;
+    height: 75vh;
     padding-top: 16px;
     margin: 10px;
     border-radius: 10px;
@@ -29,7 +29,7 @@
   
   /* SCROLL */
   .offer__scroll-container {
-    max-height: 43vh;
+    max-height: 55vh;
     margin: 24px;
     overflow-y: auto;
   }
